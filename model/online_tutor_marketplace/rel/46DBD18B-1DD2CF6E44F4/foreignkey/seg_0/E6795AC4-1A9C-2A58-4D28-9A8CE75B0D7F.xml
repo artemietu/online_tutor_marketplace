@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6795AC4-1A9C-2A58-4D28-9A8CE75B0D7F" containerWithKeyObject="CA07FF9E-1228-7C7D-E974-BAA64047CBA9" localFKIndex="8EE48032-A75C-6B84-0D14-7BF6FD1FDB3C" name="Course_Schedule_Timezone_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>B1F37FE3-6EB2-0804-5C2C-9DD876591AD5</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<referredTableLongName>Timezone</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C58E9D6-589C-60A0-AEDB-F32DEA8D060A</referredTableID>
+<keyObject>4C214EB9-0B19-1EB7-FB9E-7C947DCCDE3B</keyObject>
+<referredKeyID>4C214EB9-0B19-1EB7-FB9E-7C947DCCDE3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Timezone_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

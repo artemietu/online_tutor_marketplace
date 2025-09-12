@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F697360-C57B-475E-5110-1DFE4AFA61AA" name="Course">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 08:59:25 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course ID" id="F1B6049B-6ADC-4623-3A35-DB1FD8B72591">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:49:05 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="C1F345DE-CB93-5BE3-2731-96493B9C9AF5">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:49:49 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="51B3E2AF-A5A5-4674-241E-5220289893DA">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:50:03 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duration Hours" id="C284D65A-FE3E-942D-AFC9-04C527DA56A9">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:50:30 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="F0C2C19F-7057-6AC9-484B-2F6711277425">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:50:59 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Created At" id="C4AC3287-9B18-CF8B-74AD-74D19D70BCF2">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:51:14 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="1A1B2272-0B96-7C4A-E1A6-00E929FEC274">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 06:51:42 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Currency ID1" id="AE1BD1FC-AD4A-C718-F7AD-5925B32E8D4A">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:33:33 UTC</createdTime>
+<generatorID>8B695944-F41E-39C4-B4A5-FA1F888AD1E6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<referedAttribute>DB35EE76-E6D2-06BD-4998-2BB1BFE67F3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category ID1" id="B4F66A40-1337-F1E0-71C6-10AD5DA1C81F">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:34:05 UTC</createdTime>
+<generatorID>A05C9EAF-43B9-53E0-7179-8E2EDF57CC94</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<referedAttribute>C144480B-0CB1-DCB1-9262-1E4A30C3AE2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Trainer ID1" id="51FC495B-351D-8283-726A-8358BBD6BCF1">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:34:15 UTC</createdTime>
+<generatorID>A958F661-F66C-55E8-6B72-E11D9E827B43</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<referedAttribute>A27B702C-FEBD-DD6E-C13A-9CC87270F65D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Language ID1" id="C985EA87-E6D4-7C0A-6137-B8D62684E585">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:37:15 UTC</createdTime>
+<generatorID>ED39C42B-DA5A-268A-1632-5F8AD52C29DD</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<referedAttribute>81E84C75-7BE9-9683-C320-23CEA17CF522</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE502750-4627-685F-416E-2FEC5426507E" name="Course PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:15:03 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="1B88B550-08D0-4076-9D75-41DCB2C659AE" value="true"/>
+<item key="77404BE3-F4E4-5940-1B9F-C72EEE3BF993" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1B6049B-6ADC-4623-3A35-DB1FD8B72591</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

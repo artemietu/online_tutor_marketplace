@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="online_tutor_marketplace" id="1FCBE82D-FC5D-F17E-D175-473D6EBA7200" version="3.5">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 06:51:09 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1FCBE82D-FC5D-F17E-D175-473D6EBA7200</designId>
+</OSDM_Design>

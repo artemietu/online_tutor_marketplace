@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D3638F2-69F6-0CA4-DFBE-515B46ED78AF" name="Currency">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>705AC4BE-F7BB-785B-9264-C429C3D44D3B</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Currency_ID" id="8D673458-7DDC-F947-6809-933FD2B9970C">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>DB35EE76-E6D2-06BD-4998-2BB1BFE67F3D</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Code" id="5DADF537-4911-99CB-B71C-9DD25CA04EBF">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>A0633303-B552-AAC9-BDC5-DE3D545C6DEB</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="EB1114A6-D9A4-0BF2-1BA5-83BA4A355A9A">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>AEEFB5E4-697D-517D-4856-9643C7E320A0</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Symbol" id="C8C3C67A-1E25-1254-D3A7-DAA51A4D47E8">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>64F09885-02F9-C188-090C-5DCFA56A3B14</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F595FF2-8983-70F2-C791-D25B6AEEC4A0" name="Currency_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>27B2A96E-346D-9D3E-F784-6F7C01521D54</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D673458-7DDC-F947-6809-933FD2B9970C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A2AC229-9E7D-D894-C59C-256D9D4E66A5" name="UQ_CURRENCY_CODE">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:40:03 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DADF537-4911-99CB-B71C-9DD25CA04EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA674906-106C-02B5-72EE-80B3C332B432" name="Language">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>977C6B9B-CD11-DFB2-C614-D49FA57C28BF</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Language_ID" id="3F28F33F-7012-8FE7-EA35-2340403CFC28">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>81E84C75-7BE9-9683-C320-23CEA17CF522</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Code" id="BA6EBB4C-F0A1-00B9-4913-2C5B6E5FE84D">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>1B6F9937-0B33-1DCA-1E47-B415F56DB55F</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="54337F0C-C87E-755E-7457-5C3790EF3566">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>814A742B-45FF-7E95-603E-21332CF010D6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46176BFD-21B6-3D4C-3252-0F63CB919515" name="Language_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>1EC2498E-AB71-E4D4-CD11-47E2E1378C33</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F28F33F-7012-8FE7-EA35-2340403CFC28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D92BAC9-A021-EF2D-1C1B-0F6C3F5BCE7E" name="UQ_LANGUAGE_CODE">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:42:14 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6EBB4C-F0A1-00B9-4913-2C5B6E5FE84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

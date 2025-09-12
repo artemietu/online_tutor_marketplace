@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A12AA17-9393-A6F9-3531-B585561D750A" name="Student">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>018BAD2B-7746-F72D-5693-43391EC1A01B</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_ID" id="B6825FD7-2AE6-92B0-BFB3-AEB51ABCF9A6">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>DD9215BF-CE77-E63E-F653-87950A49D210</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_ID" id="8BD3CDBB-785C-38FB-AF74-9F9D11DB31D7">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>82E06A0D-48CF-716D-F94D-C62799610D70</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Credits" id="08210B6E-A109-1708-E89A-8F6ADA6186D3">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>36C85536-6BFE-B123-7996-5D6E2CE7B557</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Language_ID" id="64EF1935-F38E-A2F4-62E6-06399CD0AFBA">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>2FF68062-81A6-A3C3-F7D1-BFF9D8F1F4DA</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12948326-21F9-1D6E-84CA-BB641548FE2E" referredColumn="3F28F33F-7012-8FE7-EA35-2340403CFC28"/>
+</associations>
+</Column>
+<Column name="Country_ID" id="0A0168AE-0C33-D09E-61D1-5BE2F2426808">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>71FBCE0B-6B2D-829E-D6CD-4BF22683C781</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D35264AB-4D6B-B7CA-9542-1673C7D57C00" referredColumn="71FE90AF-655F-E87F-374C-471288F5C162"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5E91927-B8ED-EB00-458E-5E6FED9A0D96" name="Student_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>755DB3D2-BFE9-D469-A1F6-E93B1CA01A15</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6825FD7-2AE6-92B0-BFB3-AEB51ABCF9A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79CEF518-E06D-D6B2-C4C7-7276DBD2DF12" name="UQ_STUDENT_USER_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:53:21 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6825FD7-2AE6-92B0-BFB3-AEB51ABCF9A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="575058BE-79A2-532F-8F91-38F1365D99B0" name="IDX_STUDENT_LANGUAGE_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:53:21 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EF1935-F38E-A2F4-62E6-06399CD0AFBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81833CE6-8700-037D-3412-D107D7282E05" name="IDX_STUDENT_COUNTRY_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:53:21 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A0168AE-0C33-D09E-61D1-5BE2F2426808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD37B4AF-54EC-1B91-F2C0-3A5BA7054B65" name="Student_Country_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>D415917C-2C57-FB42-8E8A-D845DD01FD58</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A0168AE-0C33-D09E-61D1-5BE2F2426808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="782E8DE0-6F7F-8A15-8A9D-7F58E59C5038" name="Student_Language_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>D4B0CD14-BEF8-3B9B-8F4F-12662265F119</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EF1935-F38E-A2F4-62E6-06399CD0AFBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

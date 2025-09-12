@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C58E9D6-589C-60A0-AEDB-F32DEA8D060A" name="Timezone">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>87983AFA-C21F-1914-18BB-895D7011D797</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Timezone_ID" id="713D4921-2F83-F5CA-6BDE-EF1A5A7E4E9F">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>97F02263-70F7-33EF-8AB6-B2AE570E871C</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Olson_Name" id="D5E7F8C0-F10E-981A-53D7-B03D86A2460D">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>B5EBB57C-2734-69E8-9241-326EE4DC6068</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C214EB9-0B19-1EB7-FB9E-7C947DCCDE3B" name="Timezone_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>85C80243-8E75-0F88-B048-AF2D7904F9E6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="713D4921-2F83-F5CA-6BDE-EF1A5A7E4E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2311C64-9240-BF39-95FB-EC957D7E3F32" name="UQ_TIMEZONE_OLSON_NAME">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:42:33 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5E7F8C0-F10E-981A-53D7-B03D86A2460D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

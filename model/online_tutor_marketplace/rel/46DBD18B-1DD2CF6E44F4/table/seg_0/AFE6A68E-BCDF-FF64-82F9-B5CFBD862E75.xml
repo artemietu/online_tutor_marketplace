@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFE6A68E-BCDF-FF64-82F9-B5CFBD862E75" name="Role">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>B8577735-F2E1-BED1-6614-E6A18E4447BC</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Role_ID" id="E19B8255-DE4E-5A27-C97E-4A4631D5EC41">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate primary key]]></commentInRDBMS>
+<generatorID>4D798E7A-536B-12C7-609E-3752D6EF4D07</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role_Name" id="D52E0673-2488-F205-503A-229F94609F6C">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the role (e.g. Student, Trainer)]]></commentInRDBMS>
+<generatorID>D9AEA1C3-E4F9-A412-C295-737125A09F09</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_At" id="47A58EA1-5712-501B-BFD4-DC3761DF4952">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[When the role was created]]></commentInRDBMS>
+<generatorID>D70B65DB-A344-B642-C2CA-747085D119B9</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BABFC27C-1514-7CA0-5883-8B111B384ECB" name="Role_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>2116D3F4-EC07-29D8-DD44-16D8D374E77D</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E19B8255-DE4E-5A27-C97E-4A4631D5EC41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9603740-16D6-9B6C-43A3-919CA4E98CA1" name="UQ_ROLE_ROLE_NAME">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:32:32 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D52E0673-2488-F205-503A-229F94609F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

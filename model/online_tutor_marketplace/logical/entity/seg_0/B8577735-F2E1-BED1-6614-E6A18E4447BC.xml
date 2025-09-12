@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8577735-F2E1-BED1-6614-E6A18E4447BC" name="Role">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 08:57:53 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="E5AED471-5522-62F9-45A3-6C6052BF0107" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Role ID" id="4D798E7A-536B-12C7-609E-3752D6EF4D07">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 09:18:15 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="E5AED471-5522-62F9-45A3-6C6052BF0107" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role Name" id="D9AEA1C3-E4F9-A412-C295-737125A09F09">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 09:07:41 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="E5AED471-5522-62F9-45A3-6C6052BF0107" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Created At" id="D70B65DB-A344-B642-C2CA-747085D119B9">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-05 09:41:52 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="E5AED471-5522-62F9-45A3-6C6052BF0107" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2116D3F4-EC07-29D8-DD44-16D8D374E77D" name="Role PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-07 07:13:48 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<engineerTo>
+<item key="E5AED471-5522-62F9-45A3-6C6052BF0107" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D798E7A-536B-12C7-609E-3752D6EF4D07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

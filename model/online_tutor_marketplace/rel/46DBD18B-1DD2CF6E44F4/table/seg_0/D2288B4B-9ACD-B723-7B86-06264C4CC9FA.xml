@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2288B4B-9ACD-B723-7B86-06264C4CC9FA" name="User">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>9F496A99-D9B2-4272-7E8B-2768DCC26EE8</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_ID" id="19EF717F-9195-9CDB-14EB-C43B3C91DF5A">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>8A258750-4692-D572-4E5D-540A02A5465A</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C9CED240-192C-2F9A-55E8-B60AE7ABBEA9">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>ED7ADD6F-EF70-633B-667C-5AF048D2CE0A</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password_Hash" id="30F3F445-6FFB-9F4C-F5AE-F73F32504930">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>35FA9C9D-BC12-A5C5-7548-D84BE28CCD90</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Full_Name" id="2AB377EF-728B-E1D6-41E6-5C4717430675">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>39CCFA63-0B0F-37BF-6AEE-7A740567EA19</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sign-up_Date" id="3CABD681-01C5-42CA-0FA2-C467B091CC6D">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>E95CBBA5-AF81-D64A-EF80-03975F2FED0D</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role_ID" id="76442115-E21F-8C50-7A2D-8BA43E9D787D">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>E18C5E3C-6C77-5705-E4AC-9C9A936070AE</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515C008A-E471-BD80-61C3-15214D79FFC3" referredColumn="E19B8255-DE4E-5A27-C97E-4A4631D5EC41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74653492-17F3-EAC7-64A1-509FD8EE083A" name="User_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>CC6FAC70-B583-7520-FD58-CC3395B8BB07</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EF717F-9195-9CDB-14EB-C43B3C91DF5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC8205F2-8282-8CCC-5E01-47DB5BE0399D" name="UQ_USER_EMAIL">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:37:18 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9CED240-192C-2F9A-55E8-B60AE7ABBEA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69754814-4701-8410-C703-781AE9DFAC46" name="IDX_USER_ROLE_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:38:23 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76442115-E21F-8C50-7A2D-8BA43E9D787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57DFB5D4-5430-B880-5DCC-BA3F9AB32024" name="User_Role_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>A481D5DD-0B53-2572-CC0C-069E2D1408E6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76442115-E21F-8C50-7A2D-8BA43E9D787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

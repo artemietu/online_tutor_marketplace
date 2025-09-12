@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10848B43-6773-6535-859E-B346AE1A9C96" name="Review">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>2B1ACEB4-4A16-0CF4-A422-CFA9FA5C0DED</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Review_ID" id="ABF2007B-1395-12AB-5408-C25E7D2F5816">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>4066789E-CDA5-56F2-8728-2E2BAF80CDB3</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="35B7ECEA-A1C7-5448-C7C9-05C9C5B2A7C3">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>7990B1EE-D41F-4C4F-792D-4783B12FE160</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_At" id="BD8D5D31-F5C7-C785-5D08-F1008CA8F9C2">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>B120DE74-C636-4238-8231-CB14A0C1630E</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_ID" id="840A5BB5-2794-CE13-1293-6A72C30C5568">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>ABB8C636-15C8-62C3-A2A3-2AC9A8165133</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="847593BE-965F-3943-6631-97D6E2525FD2" referredColumn="AFC7EFCC-62B8-BEDA-99AF-E052515CBA8A"/>
+</associations>
+</Column>
+<Column name="Rating_ID" id="360D0268-8C9C-8BAF-C707-4A95AF5C0EAE">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>E0B58AA2-35DF-24D3-195E-46097EE4DC2A</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B9AC14F-3480-400F-428C-D3CF0A4295B6" referredColumn="7CF75DBF-16F1-4A93-1E9E-C7D1A64C59D0"/>
+</associations>
+</Column>
+<Column name="Student_ID" id="2587D0CB-AB61-FC68-6100-AED38949605B">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>E4C40616-650D-32B7-1A16-9737D95CFF11</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D482EBFC-78AF-C0FE-60B5-2E7745A0BE5C" referredColumn="B6825FD7-2AE6-92B0-BFB3-AEB51ABCF9A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9913C3DF-788E-5DB3-80DB-1256590D048C" name="Review_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>30D90AE1-5CEB-63CD-ACA9-D40E4A96C7ED</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF2007B-1395-12AB-5408-C25E7D2F5816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF79E110-BDEE-F29C-B3F9-DE4BA0DD19D5" name="UQ_REVIEW_STUDENT_COURSE">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:55:46 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2587D0CB-AB61-FC68-6100-AED38949605B"/>
+<colUsage columnID="840A5BB5-2794-CE13-1293-6A72C30C5568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="670E83BA-43E3-6301-E12E-C49F89C8BBF8" name="IDX_REVIEW_COURSE_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:56:07 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840A5BB5-2794-CE13-1293-6A72C30C5568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40D10A7A-F37A-5D34-A6F6-D475A670441E" name="IDX_REVIEW_RATING_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:56:07 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="360D0268-8C9C-8BAF-C707-4A95AF5C0EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E881195-10D7-B79B-D2A9-1D9CD7C49996" name="Review_Review_Rating_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>F6CEA2BD-A8B3-FFD8-6250-714C18A81373</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="360D0268-8C9C-8BAF-C707-4A95AF5C0EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5E9261C-BD0A-BFBE-88CF-995028C5146A" name="Review_Student_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>7A8E1DE9-3E23-4DD5-10D3-25E52CB3C7C3</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2587D0CB-AB61-FC68-6100-AED38949605B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3613CD22-AB63-942C-425F-03E169EC1BD0" name="Review_Course_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>C37F6B79-386F-336F-51B8-306F176EA6BB</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840A5BB5-2794-CE13-1293-6A72C30C5568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

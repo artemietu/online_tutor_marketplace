@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="847593BE-965F-3943-6631-97D6E2525FD2" containerWithKeyObject="10848B43-6773-6535-859E-B346AE1A9C96" localFKIndex="3613CD22-AB63-942C-425F-03E169EC1BD0" name="Review_Course_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>C37F6B79-386F-336F-51B8-306F176EA6BB</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<referredTableLongName>Course</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BAB65FC-A41B-12FA-5ACC-6E193D6FA08C</referredTableID>
+<keyObject>BAFCAE6A-7250-2B5D-1C3B-C02A063DC071</keyObject>
+<referredKeyID>BAFCAE6A-7250-2B5D-1C3B-C02A063DC071</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Course_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

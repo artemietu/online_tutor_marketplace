@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B1B73DA-7888-9F69-C5C2-BA29F9D1E349" name="Trainer">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>9EF98301-3412-B570-83F4-F089045F1A76</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Trainer_ID" id="2E049656-AC3F-5967-32BA-AFDB9FFC5850">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>A27B702C-FEBD-DD6E-C13A-9CC87270F65D</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_ID" id="76C1F651-4CBD-5420-0EAE-6AD9BF0636B3">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>EC1C3408-CB93-6BAB-15B7-A68963691380</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bio" id="5DD41473-D915-037B-CAD2-208CE4DE8750">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>9C3C6815-D4B8-833E-BC7F-C6346037F1EA</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verified" id="997C9781-5353-1CDD-7613-280FB28161D0">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>98C7755C-1EC2-6949-433E-CA1CD804C238</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_ID" id="7484C0D6-C0C3-4EA0-F534-A1F51C449064">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>5E659C1E-A7C2-8873-856D-337DA6A20942</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="523AC9E6-C6A1-09C2-CD20-30583695AEA2" referredColumn="71FE90AF-655F-E87F-374C-471288F5C162"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45B42BE5-70B8-7C1D-6627-C78804733AD1" name="Trainer_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>17B54ED4-B40A-404C-CCD2-32504A8197FC</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E049656-AC3F-5967-32BA-AFDB9FFC5850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654B5B8E-75EB-2180-6990-064C194B7A1B" name="UQ_TRAINER_USER_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:45:02 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C1F651-4CBD-5420-0EAE-6AD9BF0636B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71040499-848B-493C-E537-6AA567224D30" name="IDX_TRAINER_COUNTRY_ID">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:45:02 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7484C0D6-C0C3-4EA0-F534-A1F51C449064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D88745D-CB83-4A93-B482-5D78AFC9699F" name="Trainer_Country_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>EC5B1904-9477-EFD1-06E5-1DAD6A85F932</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7484C0D6-C0C3-4EA0-F534-A1F51C449064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

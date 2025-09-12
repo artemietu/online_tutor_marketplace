@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F8FA65F-757F-CC33-E678-5A3517154AA3" containerWithKeyObject="3BAB65FC-A41B-12FA-5ACC-6E193D6FA08C" localFKIndex="C201D50F-4FC1-747C-31FA-BE1AE8205936" name="Course_Currency_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>8B695944-F41E-39C4-B4A5-FA1F888AD1E6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<referredTableLongName>Currency</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D3638F2-69F6-0CA4-DFBE-515B46ED78AF</referredTableID>
+<keyObject>5F595FF2-8983-70F2-C791-D25B6AEEC4A0</keyObject>
+<referredKeyID>5F595FF2-8983-70F2-C791-D25B6AEEC4A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Currency_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

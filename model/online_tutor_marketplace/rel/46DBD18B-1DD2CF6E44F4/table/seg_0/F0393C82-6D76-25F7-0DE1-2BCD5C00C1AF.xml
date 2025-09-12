@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0393C82-6D76-25F7-0DE1-2BCD5C00C1AF" name="Student_Enrollment">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>20F49D27-38CE-F2A2-492A-09502AB0AC9F</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Enrollment_ID" id="8735D61F-C3E2-EF50-993C-C4007B6225E4">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>E2FE89BA-47AD-A8EA-AACE-7A1AEA891185</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Enrolled_At" id="B721F105-45AC-F61E-51BF-96BA62C4CCB0">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>619594C5-EB57-8A5A-93CB-18B908897B53</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="5D15DB1D-7464-10CC-7AD9-CA3A415C1D29">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>C9876A8F-7F61-D36A-F638-F8A8A98583D9</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Schedule_ID" id="E525463B-0DCB-670E-448F-2ECF285B58AA">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>79A1AA52-2C87-456B-4215-F73D18F525D2</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D09391A7-5B18-039F-7633-997E9CD02BAA" referredColumn="C72B71D2-13CC-47EA-F65B-A4762A7B9552"/>
+</associations>
+</Column>
+<Column name="Student_ID" id="2A8D6B2F-7C78-020F-A9A6-697F8528588E">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>3B597F41-BBE6-A534-22E4-61090E98A9E2</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D40F0F2-7D5F-B017-CAB9-D1CD33899220" referredColumn="B6825FD7-2AE6-92B0-BFB3-AEB51ABCF9A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AA79362-E9F3-13E5-4FF9-CCDAB3E2865E" name="Student_Enrollment_PK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>48073190-A32D-6C8D-64C3-EBDF942513B8</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8735D61F-C3E2-EF50-993C-C4007B6225E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE282B79-268F-6BBD-0003-1DA2049C01B3" name="UQ_ENR_STUDENT_SCHEDULE">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:54:14 UTC</createdTime>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E525463B-0DCB-670E-448F-2ECF285B58AA"/>
+<colUsage columnID="2A8D6B2F-7C78-020F-A9A6-697F8528588E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86E5EBCE-2651-035A-A628-55A9CF1F0EE2" name="Student_Enrollment_Course_Schedule_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>F7CAE122-70AA-F658-FC88-BB184ED215A6</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E525463B-0DCB-670E-448F-2ECF285B58AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBD78F85-1489-5EBF-3728-3AEDA5933B15" name="Student_Enrollment_Student_FK">
+<createdBy>artemietu</createdBy>
+<createdTime>2025-09-10 08:04:13 UTC</createdTime>
+<generatorID>48D9188A-BD29-9DDF-AB6F-A5A61B345B87</generatorID>
+<ownerDesignName>online_tutor_marketplace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A8D6B2F-7C78-020F-A9A6-697F8528588E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
