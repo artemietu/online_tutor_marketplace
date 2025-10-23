@@ -55,20 +55,18 @@ The platform supports the following business processes:
 ---
 
 ## Tech Stack
-- **Oracle SQL Developer Data Modeler** — conceptual, logical, and physical models.  
-- **Oracle Database** — target RDBMS for schema deployment.  
-- **Markdown & Git** — documentation and version control.  
+- **Lucidchart** — conceptual model.
+- **Oracle SQL Developer Data Modeler** — logical, and physical models.  
 
 ---
 
 ## How to Use
 1. Clone this repository.  
-2. Open `models/online_tutor_marketplace.dmd` in **Oracle SQL Developer Data Modeler** to view/edit the models.  
+2. Open `model/online_tutor_marketplace.dmd` in **Oracle SQL Developer Data Modeler** to view/edit the models.  
 3. Review diagrams and reports under `docs/` and `images/`.  
-4. Run `models/ddl_script.sql` in an Oracle Database environment to create the schema.  
+4. Run `model/ddl_script.sql` in an Oracle Database environment to create the schema.  
 
 ---
-
 
 ## Author
 Artemie Țurcanu - Data Analyst.
